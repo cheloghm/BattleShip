@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<project default="runServer" name="BattleShip">
+    <target name="runServer" depends="compileServer">
+
+    </target>
+    <target name="compileServer">
+        <javac srcdir="src"  destdir="out"/>
+    </target>
+    <target name="runClient" depends="compileClient">
+
+    </target>
+    <target name="compileClient">
+        <javac srcdir="src"  destdir="out"/>
+    </target>
+</project>
